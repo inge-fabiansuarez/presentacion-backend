@@ -18,12 +18,30 @@
                         <!---<img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Foto de perfil">-->
                         <img width="150"
                             src="https://media.licdn.com/dms/image/D4E03AQGnRg0YjmlPQg/profile-displayphoto-shrink_800_800/0/1720746930081?e=1728518400&v=beta&t=yk2buDmyCEgjuP-Wlqya8ooQmZWGrSadPmtOeLmp2Ks"
-                            class="rounded-circle mb-3" alt="Foto de perfil">
+                            class="rounded-circle mb-3" alt="Foto de perfil"
+                            style="cursor: pointer;"
+                            data-bs-toggle="modal" data-bs-target="#imageModal">
                         <h1 class="card-title red-color">Fabian Enrique Suarez Carvajal</h1>
                         <p class="card-text">
                             Ingeniero De Sistemas <br>
                             Magister en Gestión, aplicación y desarrollo de Software
                         </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Modal para expandir la imagen -->
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="imageModalLabel">Foto de Fabian Enrique Suarez Carvajal</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img width="500" src="https://media.licdn.com/dms/image/D4E03AQGnRg0YjmlPQg/profile-displayphoto-shrink_800_800/0/1720746930081?e=1728518400&v=beta&t=yk2buDmyCEgjuP-Wlqya8ooQmZWGrSadPmtOeLmp2Ks" class="img-fluid rounded"
+                            alt="Foto de perfil expandida">
                     </div>
                 </div>
             </div>
